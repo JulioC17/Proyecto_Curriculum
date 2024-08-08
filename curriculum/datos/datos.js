@@ -1,10 +1,10 @@
 const data = {
-    name: "Julio Cesar",
+    name: "Julio Cesar Santos Reyes",
     telefono: "123-456-789",
     GitHub: "https://github.com/JulioC17",
     address: "Ayuntamiento de Valencia",
     email: "juliocesarsantosreyes@gmail.com",
-    avatar:"https://www.shutterstock.com/image-vector/young-smiling-man-avatar-brown-600nw-2261401207.jpg",
+    avatar:"https://static.vecteezy.com/system/resources/thumbnails/027/951/137/small_2x/stylish-spectacles-guy-3d-avatar-character-illustrations-png.png",
     aboutMe:"Soy una persona empática con la capacidad de trabajar de manera eficaz tanto en equipo como de forma individual. Mi pasión por la programación y mi afición por los retos me han impulsado a desarrollar habilidades en diversas áreas tecnológicas, incluyendo el trading. Además de mi interés profesional, soy un entusiasta de los deportes, especialmente del fútbol, lo cual me ha enseñado la importancia de la disciplina y el trabajo en equipo. Me considero un aprendiz rápido, siempre dispuesto a adquirir nuevos conocimientos y habilidades que puedan contribuir al éxito",
     profesion: "Desarrollador Full-Stack",
     profesionAvatar:"https://img.freepik.com/fotos-premium/fondo-programacion-fotos-persona-que-trabaja-codigo-hacker_960020-209.jpg",
@@ -68,5 +68,6 @@ const data = {
         },
     ]
 
-
 }
+
+export default data
