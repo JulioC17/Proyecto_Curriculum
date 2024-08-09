@@ -9,13 +9,12 @@ const header = () => `
     <nav>
         <ul>
             <li>
-                <a href = "#home">home</a>
+                <a href = "#skills">Skills</a>
             </li>
-            <li>skills</li>
-            <li>experiencia</li>
-            <li>educacion</li>
-            <li>proyectos</li>
-            <li>contacto</li>
+            <li>Experiencia</li>
+            <li>Educacion</li>
+            <li>Proyectos</li>
+            <li>Contacto</li>
         </ul>
     </nav>
     <article id = "articulo1">
@@ -28,15 +27,4 @@ const header = () => `
 
 
 `
-
-
-
-
-    
-     
-    
-
-
-
-
 export default header

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --color-primario: #6a6a6b;
+    --color-secundario: #37393a;
+    --color-terciario: #5ed279;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Roboto";
+}
+
+#skills{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+#habilidades{
+    background-color: var(--color-secundario);
+    color:var(--color-terciario);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 100px 20px 20px 20px;
+    font-size: 25px;
+    -webkit-box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.38);
+-moz-box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.38);
+box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.38)
+}
+
+#habilidades ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+#habilidades h1{
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+#habilidades img {
+    width: 80%;
+}
+
+#habilidades ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color:#6a6a6b;
+    /* border: #5ed279 solid 1px; */
+    padding: 1rem;
+    width: 20%;
+    border-radius: 20px;
+    margin-bottom: 5rem;
+    -webkit-box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.38);
+    -moz-box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.38);
+    box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.38)
+}
+
+#habilidades i {
+    color: #5ed279;
+}
+
+
+

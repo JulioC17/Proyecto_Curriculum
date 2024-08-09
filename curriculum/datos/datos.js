@@ -10,20 +10,20 @@ const data = {
     profesionAvatar:"https://img.freepik.com/fotos-premium/fondo-programacion-fotos-persona-que-trabaja-codigo-hacker_960020-209.jpg",
     skills: [
        {
-        tecnologia: "html5",
+        tecnologia: "HTML5",
         descripcion: "HTML5 es la quinta revisión importante del Lenguaje de Marcado de Hipertexto (HTML), que se utiliza para estructurar y presentar contenido en la World Wide Web. Publicado en octubre de 2014 por el World Wide Web Consortium (W3C), HTML5 introduce una serie de nuevas características y mejoras en comparación con sus predecesores, con el objetivo de mejorar la experiencia del usuario, facilitar el desarrollo web y soportar mejor los dispositivos móviles.",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png"
+        logo: "https://icons.iconarchive.com/icons/cornmanthe3rd/plex/256/Other-html-5-icon.png"
        },
        {
-        tecnologia: "css3",
+        tecnologia: "CSS3",
         descripcion: "CSS3 es la tercera versión del lenguaje de Hojas de Estilo en Cascada (Cascading Style Sheets), utilizado para describir la presentación y el diseño de documentos HTML o XML. CSS3 introduce nuevas características y mejoras respecto a las versiones anteriores, con el objetivo de proporcionar más herramientas y capacidades para los diseñadores web y desarrolladores, permitiendo la creación de interfaces de usuario más sofisticadas y atractivas.",
-        logo: "https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png"
+        logo: "https://img.icons8.com/?size=512&id=21278&format=png"
        },{
-        tecnologia: "javascript",
+        tecnologia: "Java Script",
         descripcion: "JavaScript es un lenguaje de programación interpretado, de alto nivel y basado en prototipos, que se utiliza principalmente para crear y controlar contenido dinámico en páginas web. Fue desarrollado originalmente por Brendan Eich en 1995 y es parte fundamental del desarrollo web moderno, junto con HTML y CSS. JavaScript permite a los desarrolladores implementar características interactivas como animaciones, manejo de formularios, actualización de contenido en tiempo real, juegos, y mucho más.",
         logo: "https://static.vecteezy.com/system/resources/previews/027/127/463/original/javascript-logo-javascript-icon-transparent-free-png.png"
        },{
-        tecnologia: "react",
+        tecnologia: "React",
         descripcion: "React es una biblioteca de JavaScript de código abierto, desarrollada por Facebook, que se utiliza para construir interfaces de usuario (UI) dinámicas y componentes de interfaz de usuario en aplicaciones web. Introducida por primera vez en 2013, React se ha convertido en una de las bibliotecas más populares para el desarrollo frontend debido a su eficiencia, flexibilidad y simplicidad.",
         logo: "https://cdn1.iconfinder.com/data/icons/programing-development-8/24/react_logo-512.png"
        },
