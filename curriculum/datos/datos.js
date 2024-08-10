@@ -32,22 +32,37 @@ const data = {
         {
             Posicion: "Desarrollador Back-end",
             Compañía: "Apple Inc",
-            Inicio: "2018",
+            Inicio: 2018,
             Descripcion: "Era el responsable de la lógica del servidor, la gestión de bases de datos y la integración de la aplicación con sistemas y servicios externos."
         },
         {
             Posicion: "Desarrollador Full-Stack",
             Compañía: "Microsoft S.A.",
-            Inicio: "2020",
+            Inicio: 2020,
             Descripcion: "Me encargaba de la creación de interfaces de usuario y la lógica del servidor, así como de la gestión de bases de datos y la integración con servicios externos, cubriendo todos los aspectos del desarrollo web."
-        },{
+        },
+        {
             Posicion: "Desarrollador Front-end",
             Compañía: "Samsung Corporation",
-            Inicio: "2023",
+            Inicio: 2023,
             Descripcion: "Me centraba en la creación y optimización de la interfaz de usuario y la experiencia visual de una aplicación web. Trabaja con tecnologías como HTML, CSS y JavaScript para implementar diseños y funcionalidades que sean atractivos."
         },
     ],
-    Educacion: "Me gradué en una de las Escuelas mas prestigiosas de España, The Powe MBA. En la promoción del año 2017 obtengo los honores del Mejor Desarrollador web y termino mis estudios con el Titulo de Desarrollador Full-Stack. Tambien durante mis estudios participé en muchos cursos optativos y con cierto grado de dificultad para los estudiantes mas arriesgados como el de Fundamentos Avanzados del Desarrollo web, Estructura de Datos y Algortimos y Diseño de Interfaces para usuarios",
+    Educacion: [
+        {
+            Graduación: 2013,
+            Título: "Tecnico Superior en Electronica Avanzada"
+        },
+        {
+            Graduación: 2015,
+            Título: "Bootcamp de Desarrollo de Aplicaciones Multiplataforma"
+        },
+        {
+            Graduación: 2017,
+            Título: "Master en Desarrollo Web Full-Stack"
+        }
+       
+    ],
     Proyectos: [
         {
             nombre:"Proyecto Web Asincrono",
@@ -61,10 +76,10 @@ const data = {
             url: "https://github.com/JulioC17/Proyecto_DOM.git",
             imagen: "https://a.ilovecoding.org/thumb/dom.png"
         },{
-            nombre:"Proyecto Random Restaurante",
-            descripcion: "En este proyecto quise darle una solucion un poco creativa y comica al problema que todos hemos tenido alguna vez de no saber a que restaurante ir a comer, por lo que mediante el DOM, JS, HTML5, y CSS3 he creado una pagina donde el usuario puede introducir todas las opciones que tiene para ir a comer y esta le dara un resultado aleatorio de a donde salir",
+            nombre:"Random Restaurante",
+            descripcion: "Es una solucion un poco creativa al problema que todos hemos tenido alguna vez de no saber a que restaurante ir a comer, por lo que mediante el DOM, JS, HTML5, y CSS3 he creado una pagina donde el usuario puede introducir todas las opciones que tiene para ir a comer y esta le dara un resultado aleatorio de a donde salir",
             url: "https://github.com/JulioC17/Random-Restaurant.git",
-            imagen: "https://img.freepik.com/vector-gratis/fachada-restaurante-estilo-dibujos-animados_23-2147539527.jpg"
+            imagen: "https://static.vecteezy.com/system/resources/previews/005/520/563/original/cartoon-drawing-of-fast-food-restaurant-vector.jpg"
         },
     ]
 

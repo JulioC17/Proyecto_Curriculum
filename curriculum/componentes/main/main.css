@@ -28,7 +28,7 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
-    margin: 100px 20px 20px 20px;
+    margin: 50px 20px 20px 20px;
     font-size: 25px;
     -webkit-box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.38);
 -moz-box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.38);
@@ -73,6 +73,110 @@ box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.38)
 #habilidades i {
     color: #5ed279;
 }
+
+
+#Formacion{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#Formacion ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    background-color: var(--color-secundario);
+    color:var(--color-terciario);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 50px 20px 20px 20px;
+    font-size: 25px;
+    -webkit-box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.38);
+-moz-box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.38);
+box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.38);
+width: 40%;
+gap: 100px;
+
+}
+
+#Formacion h2 {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+   
+}
+
+#Formacion  i {
+    color: white
+}
+
+#Formacion li {
+    padding: 20px;
+}
+
+#Proyectos {
+text-align: center;
+padding: 20px;
+margin: 50px 20px 20px 20px;
+}
+
+#Proyectos i {
+    color: var(--color-terciario);
+}
+
+
+#divisor {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#divisor article {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50% 5% 40% 5%;
+    background-color: var(--color-secundario);
+    color:var(--color-terciario);
+    border-radius: 20px;
+    padding: 15px;
+    margin: 50px 20px 20px 20px;
+    font-size: 25px;
+    -webkit-box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.38);
+-moz-box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.38);
+box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.38);
+width: 25%;
+justify-items: center;
+height: 70vh;
+}
+
+#divisor img {
+    width: 90%;
+    height: 75%;
+    border-radius: 20px;
+    
+}
+
+#divisor h2 {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
