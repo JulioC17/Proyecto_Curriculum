@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Grey+Qo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root{
     --color-primario: #6a6a6b;
@@ -18,7 +19,13 @@
 }
 
 body{
-    background-color: var(--color-primario)
+    background-color: var(--color-primario);
+    transition: 0.4s;
+}
+
+body.light{
+    background-color: rgb(207, 207, 207);
+    transition: 0.4s;
 }
 
 
@@ -28,7 +35,13 @@ a{
     transition: 0.2s;
 }
 
+a:hover{
+    color: white;
+}
 
+a.light:hover{
+    color: var(--color-secundario);
+}
 
 
 
@@ -44,11 +57,14 @@ a{
     list-style-type: none;
     -webkit-box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.38);
 -moz-box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.38);
-box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.38),
+box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.38);
+align-items: center;
+transition: 0.4s;
 }
 
 header ul.light {
     background-color: var(--color-primario-light);
+    transition: 0.4s;
 }
 
 
@@ -65,13 +81,15 @@ header ul.light {
     color: var(--color-terciario);
     -webkit-box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.38);
 -moz-box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.38);
-box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.38)
+box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.38);
+transition: 0.4s;
    
 }
 
 #articulo1.light{
     background-color: var(--color-primario-light);
-    color:var(--color-primario)
+    color:var(--color-primario);
+    transition: 0.4s;
 }
 
 #articulo1 img {
@@ -81,10 +99,13 @@ box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.38)
     padding: 20px;
     margin: 20px 20px 20px 20px;
     border: var(--color-terciario) 1px solid;
+    transition: 0.4s;
 }
 
 #articulo1.light img{
     background-color: var(--color-terciario);
+    border: var(--color-secundario) 1px solid;
+    transition: 0.4s;
 }
 
 
@@ -94,11 +115,13 @@ h1{
     letter-spacing: 10px;
     font-size: 3rem;
     color: white;
+    transition: 0.4s;
     
 }
 
 h1.light {
     color: var(--color-primario);
+    transition: 0.4s;
 }
 
 h2{
@@ -108,10 +131,41 @@ h2{
     color: var(--color-terciario);
 }
 
-p{
+#articulo1 p{
     padding: 40px;
     text-align: center;
-    font-family: "grey Qo";
-    font-size: 2rem;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-size: 1.8rem;
 }
+
+button {
+    width: 4%;
+    border-radius: 10px;
+    height: 20%;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    transition: 0.4s;
+}
+
+button#oscuro {
+    background-color: rgb(199, 199, 255);
+    transition: 0.4s;
+}
+
+button img {
+    width: 60%;
+    height: 60%;
+    transition: 0.4s;
+}
+
+button :hover{
+    cursor: pointer;
+    
+}
+
+button.light{
+    display: none;
+    transition: 0.4s;
+}
+
 

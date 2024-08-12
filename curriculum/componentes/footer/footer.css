@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Grey+Qo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --color-primario: #6a6a6b;
+    --color-secundario: #37393a;
+    --color-terciario: #5ed279;
+    --color-primario-light: rgb(248, 248, 248);
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Roboto";
+}
+
+footer {
+    background-color: var(--color-secundario);
+    color:var(--color-terciario);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 100px 20px 20px 20px;
+    font-size: 25px;
+    -webkit-box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.38);
+-moz-box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.38);
+box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.38);
+flex-wrap: wrap;
+}
+
+footer.light {
+    background-color: var(--color-primario-light);
+}
+
+footer h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+footer h1.light{
+    color: var(--color-primario);
+}
+
+
+footer h1 i {
+    color: var(--color-terciario);
+}
+
+footer ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    width:15% ;
+    flex-wrap: wrap;
+}
+
+footer ul li img{
+    width: 25%;
+    height: 65px;
+
+}
+
+footer ul li h3 {
+    font-size: 1rem;
+}
+
+
+
+
+
+
+

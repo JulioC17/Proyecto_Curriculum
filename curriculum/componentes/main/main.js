@@ -7,25 +7,25 @@ const main = () => `
 
 <main>
     
-    <article id = "habilidades">
-        <h1 id = "skills"> <i>my</i>Skills</h1>
+    <article class = "" id = "habilidades">
+        <h1 id = "skills" class = ""> <i>my</i>Skills</h1>
         <ul id = "listaHabilidades">
-            <li>
+            <li class = "skillslista" class "">
                 ${skills[0].tecnologia}
                 <img src = "${skills[0].logo}" alt = "logo html5" />
             </li>
 
-            <li>
+            <li class = "skillslista" class "">
                 ${skills[1].tecnologia}
                 <img src = "${skills[1].logo}" alt = "logo html5" />
             </li>
 
-            <li>
+            <li class = "skillslista" class "">
                 ${skills[2].tecnologia}
                 <img src = "${skills[2].logo}" alt = "logo html5" />
             </li>
 
-            <li>
+            <li class = "skillslista" class "">
                 ${skills[3].tecnologia}
                 <img src = "${skills[3].logo}" alt = "logo html5" />
             </li>
@@ -35,72 +35,62 @@ const main = () => `
     </article>
 
     <article id = "Formacion">
-        <ul>
-            <h2>Formación</h2>
+        <ul id = "formacionLista" class = "">
+            <h2 id = "formacion" class = "">Formación</h2>
             <li>
-                 <i>${Educacion[0].Graduación}</i>-${Educacion[0].Título}
+                 <i class = "cursivalista" class = "">${Educacion[0].Graduación}</i>-${Educacion[0].Título}
             </li>
 
              <li>
-                 <i>${Educacion[1].Graduación}</i>-${Educacion[1].Título}
+                 <i class = "cursivalista" class = "">${Educacion[1].Graduación}</i>-${Educacion[1].Título}
             </li>
 
              <li>
-                 <i>${Educacion[2].Graduación}</i>-${Educacion[2].Título}
+                 <i class = "cursivalista" class = "">${Educacion[2].Graduación}</i>-${Educacion[2].Título}
             </li>
         </ul> 
 
-        <ul>
-            <h2>Experiencia</h2>
+        <ul id = "experienciaLista" class = "">
+            <h2 id = "experiencia" class = "">Experiencia</h2>
             <li>
-                <i>${Experiencia[0].Inicio}</i>-${Experiencia[0].Compañía}-${Experiencia[0].Posicion}
+                <i class = "cursivalista" class = "">${Experiencia[0].Inicio}</i>-${Experiencia[0].Compañía}-${Experiencia[0].Posicion}
             </li>
 
             <li>
-                <i>${Experiencia[1].Inicio}</i>-${Experiencia[1].Compañía}-${Experiencia[1].Posicion}
+                <i class = "cursivalista" class = "">${Experiencia[1].Inicio}</i>-${Experiencia[1].Compañía}-${Experiencia[1].Posicion}
             </li>
 
             <li>
-                <i>${Experiencia[2].Inicio}</i>-${Experiencia[2].Compañía}-${Experiencia[2].Posicion}
+                <i class = "cursivalista" class = "">${Experiencia[2].Inicio}</i>-${Experiencia[2].Compañía}-${Experiencia[2].Posicion}
             </li>
         </ul> 
     
-    </article>
+    </article id = "articuloProyecto">
     
-    <h1 id = "Proyectos"><i>my</i>Proyects</h1>
+    <h1 id = "Proyectos" class = ""><i>my</i>Proyects</h1>
     <div id = "divisor">
-        <article>
+        <article class = "articuloProyectos" class = "">
             <img src="${Proyectos[0].imagen}"/>
-            <h2>${Proyectos[0].nombre}</h2>
-            <p>${Proyectos[0].descripcion}</p>
+            <h2 class = "proyectoH2" class "">${Proyectos[0].nombre}</h2>
+            <p class = "proyectoParrafo" class = "">${Proyectos[0].descripcion}</p>
              <a href = "${Proyectos[0].url}">Repositorio</a>
          </article>
 
-         <article>
+         <article class = "articuloProyectos" class = "">
             <img src="${Proyectos[1].imagen}"/>
-            <h2>${Proyectos[1].nombre}</h2>
-            <p>${Proyectos[1].descripcion}</p>
+            <h2 class = "proyectoH2" class "">${Proyectos[1].nombre}</h2>
+            <p class = "proyectoParrafo" class = "">${Proyectos[1].descripcion}</p>
              <a href = "${Proyectos[1].url}">Repositorio</a>
          </article>
 
-         <article>
+         <article class = "articuloProyectos" class = "">
             <img src="${Proyectos[2].imagen}"/>
-            <h2>${Proyectos[2].nombre}</h2>
-            <p>${Proyectos[2].descripcion}</p>
+            <h2 class = "proyectoH2" class "">${Proyectos[2].nombre}</h2>
+            <p class = "proyectoParrafo" class = "">${Proyectos[2].descripcion}</p>
              <a href = "${Proyectos[2].url}">Repositorio</a>
          </article>
-    
-    
-    
-    
     </div>
     
-
-
-
-
-
-
 </main>
 
 

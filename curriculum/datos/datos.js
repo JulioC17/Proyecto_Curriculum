@@ -32,33 +32,33 @@ const data = {
         {
             Posicion: "Desarrollador Back-end",
             Compañía: "Apple Inc",
-            Inicio: 2018,
+            Inicio: "2018",
             Descripcion: "Era el responsable de la lógica del servidor, la gestión de bases de datos y la integración de la aplicación con sistemas y servicios externos."
         },
         {
             Posicion: "Desarrollador Full-Stack",
             Compañía: "Microsoft S.A.",
-            Inicio: 2020,
+            Inicio: "2020",
             Descripcion: "Me encargaba de la creación de interfaces de usuario y la lógica del servidor, así como de la gestión de bases de datos y la integración con servicios externos, cubriendo todos los aspectos del desarrollo web."
         },
         {
             Posicion: "Desarrollador Front-end",
             Compañía: "Samsung Corporation",
-            Inicio: 2023,
+            Inicio: "2023",
             Descripcion: "Me centraba en la creación y optimización de la interfaz de usuario y la experiencia visual de una aplicación web. Trabaja con tecnologías como HTML, CSS y JavaScript para implementar diseños y funcionalidades que sean atractivos."
         },
     ],
     Educacion: [
         {
-            Graduación: 2013,
+            Graduación: "2013",
             Título: "Tecnico Superior en Electronica Avanzada"
         },
         {
-            Graduación: 2015,
+            Graduación: "2015",
             Título: "Bootcamp de Desarrollo de Aplicaciones Multiplataforma"
         },
         {
-            Graduación: 2017,
+            Graduación: "2017",
             Título: "Master en Desarrollo Web Full-Stack"
         }
        
