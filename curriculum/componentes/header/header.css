@@ -169,3 +169,62 @@ button.light{
 }
 
 
+
+
+
+@media (max-width : 835px){
+   
+    h1{
+        text-align: center;
+    }
+
+    #articulo1 img {
+        margin: 0;
+        padding : 0;
+    }
+
+
+}
+
+
+
+
+
+
+
+@media (max-width : 480px){
+
+    header ul{
+        display: grid;
+        grid-template-columns: 45% 45%;
+        text-align: center;
+        align-items: center;
+        justify-items: center;
+        gap: 10px;
+    }
+
+    header ul button {
+        width: 45px;
+        height: 40px
+    }
+
+    #HeaderH1{
+        font-size: 30px;
+    }
+
+    #articulo1 img {
+        padding: 0;
+        margin: 0;
+        width: 100px;
+    }
+
+    #articulo1 h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #articulo1 p{
+        font-size: 18px;
+    }
+
+}

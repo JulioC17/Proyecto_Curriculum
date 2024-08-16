@@ -71,21 +71,21 @@ const main = () => `
     <div id = "divisor">
         <article class = "articuloProyectos" class = "">
             <img src="${Proyectos[0].imagen}"/>
-            <h2 class = "proyectoH2" class "">${Proyectos[0].nombre}</h2>
+            <h2 class = "proyectoH2" class = "">${Proyectos[0].nombre}</h2>
             <p class = "proyectoParrafo" class = "">${Proyectos[0].descripcion}</p>
              <a href = "${Proyectos[0].url}">Repositorio</a>
          </article>
 
          <article class = "articuloProyectos" class = "">
             <img src="${Proyectos[1].imagen}"/>
-            <h2 class = "proyectoH2" class "">${Proyectos[1].nombre}</h2>
+            <h2 class = "proyectoH2" class = "">${Proyectos[1].nombre}</h2>
             <p class = "proyectoParrafo" class = "">${Proyectos[1].descripcion}</p>
              <a href = "${Proyectos[1].url}">Repositorio</a>
          </article>
 
          <article class = "articuloProyectos" class = "">
             <img src="${Proyectos[2].imagen}"/>
-            <h2 class = "proyectoH2" class "">${Proyectos[2].nombre}</h2>
+            <h2 class = "proyectoH2" class = "">${Proyectos[2].nombre}</h2>
             <p class = "proyectoParrafo" class = "">${Proyectos[2].descripcion}</p>
              <a href = "${Proyectos[2].url}">Repositorio</a>
          </article>

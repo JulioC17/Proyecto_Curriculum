@@ -80,6 +80,32 @@ footer ul li h3 {
     font-size: 1rem;
 }
 
+@media (max-width : 835px){
+    
+    #contacto {
+        display: grid;
+        grid-template-columns: 200px;
+        grid-template-rows: repeat(4, 25%)
+    }
+
+    #contacto li {
+        display: grid;
+        grid-template-columns: 200px;
+        align-items: center;
+        justify-items: center;
+        margin: 10px;
+    }
+}  
+
+
+@media (max-width : 480px){
+    footer h1{
+        font-size: 30px;
+    }
+}
+
+
+
 
 
 

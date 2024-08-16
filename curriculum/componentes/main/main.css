@@ -244,6 +244,108 @@ transition: 0.4s;
 
 
 
+@media (max-width : 835px){
+    #Formacion h2{
+       font-size: 20px;
+    }
+}
+
+
+
+@media (max-width : 480px){
+
+    
+
+    #skills {
+        font-size: 30px;
+    }
+
+    #habilidades ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 200px) ;
+        font-size: 18px;
+        justify-content: center;
+        justify-items: center;
+        
+
+
+    }
+
+    #habilidades ul li {
+        display: grid;
+        width: 60%;
+        padding:0;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+
+    }
+
+    #habilidades ul li img {
+        width: 50px;
+    }
+
+
+
+    #Formacion {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Formacion ul li {
+        font-size: 18px;
+    }
+
+    #Formacion ul {
+        width: 80%;
+    }
+
+    #formacionLista  h2 {
+        font-size: 25px;
+    }
+
+    
+
+    #experienciaLista h2 {
+        font-size: 25px;
+    }
+
+
+    #Proyectos {
+        font-size: 30px;
+    }
+
+    #divisor {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #divisor article {
+        width: 90%;
+        height: 600px;
+
+    }
+
+    #divisor article h2 {
+        font-size: 30px;
+    }
+
+    #divisor article p {
+        font-size: 18px;
+    }
+
+    #divisor article a {
+        font-size: 18px;
+    }
+
+    #divisor article img {
+        height: auto;
+    }
+}
+
+
+
 
 
 
